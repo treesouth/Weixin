@@ -26,7 +26,7 @@ proguard/
 # Log Files
 *.log
 
-/.idea
+.idea/
 
 # Mac file
 .DS_Store
