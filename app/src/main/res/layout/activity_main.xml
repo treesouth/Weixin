@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zn="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/tabbg"
+        android:orientation="horizontal" >
+
+        <com.zn.ui.weixin.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            zn:wx_icon="@mipmap/ic_menu_weixin.png"
+            zn:text="@string/tab_weixin"
+            zn:text_size="12sp" />
+
+        <com.zn.ui.weixin.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            zn:wx_icon="@mipmap/ic_menu_contact.png"
+            zn:text="@string/tab_contact"
+            zn:text_size="12sp" />
+
+        <com.zn.ui.weixin.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            zn:wx_icon="@mipmap/ic_menu_find.png"
+            zn:text="@string/tab_find"
+            zn:text_size="12sp" />
+
+        <com.zn.ui.weixin.ChangeColorIconWithTextView
+            android:id="@+id/id_indicator_four"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            zn:wx_icon="@mipmap/ic_menu_me.png"
+            zn:text="@string/tab_me"
+            zn:text_size="12sp" />
+    </LinearLayout>
+</LinearLayout>
